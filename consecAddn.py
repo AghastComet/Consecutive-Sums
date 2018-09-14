@@ -8,7 +8,7 @@ def findTotal(added=added,subed=subed):
 		total-=i
 	return total
 
-target=int(input())
+target=abs(int(input()))
 total=0
 while True:
 	if total<target:
